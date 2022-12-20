@@ -1,1 +1,1 @@
-import import matplotlib.pyplot as plt
+matplotlib==3.6.2
