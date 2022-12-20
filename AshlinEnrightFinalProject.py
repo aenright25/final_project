@@ -31,7 +31,7 @@ select_q1_city = st.sidebar.selectbox("Please select a city:", q1_cities)
 st.success(f'The city/cities you have selected is/are {select_q1_city}.')
 st.sidebar.success(f'The city/cities you have selected is/are {select_q1_city}.')
 
-df_skyscrapers = pd.read_csv("C:/Users/acenr/CS230FinalProject/Skyscrapers2021.csv")
+df_skyscrapers = pd.read_csv("Skyscrapers2021.csv")
 df_skyscrapers.rename(columns={"Latitude": "lat", "Longitude": "lon"}, inplace=True)
 
 selected_columns = ["NAME", "CITY", "lat", "lon", "Feet", "Meters"]
